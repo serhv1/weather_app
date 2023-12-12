@@ -3,8 +3,8 @@ import 'dart:developer' as dev;
 
 import 'package:http/http.dart' as http;
 import 'package:weather_app/models/weather_forecast_daily.dart';
-import 'package:weather_app/utulities/constants.dart';
-import 'package:weather_app/utulities/location.dart';
+import 'package:weather_app/utilities/constants.dart';
+import 'package:weather_app/utilities/location.dart';
 
 class WeatherApi {
   Future<WeatherForecast> fetchWeatherForecast(
